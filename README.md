@@ -85,7 +85,8 @@ for (let i = 0; i < 5; i++){
   gradeInput();
 }
  
-//TABLES
+// TABLES
+
 const tableData1 = 
   { "Name Of Student": studNm[0],
     "Class Participation": classPart[0], 
@@ -131,6 +132,5 @@ const tableData5 =
     "Letter Grade": letterGrd[4]}
 ;
  
-
 console.table([tableData1, tableData2, tableData3, tableData4, tableData5]);
  
